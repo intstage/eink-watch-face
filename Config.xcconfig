@@ -1,0 +1,4 @@
+// Общие значения; личные (команда, префикс) переопределяются в Local.xcconfig, которого нет в git.
+DEVELOPMENT_TEAM =
+BUNDLE_PREFIX = com.example
+#include? "Local.xcconfig"
